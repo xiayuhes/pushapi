@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/modood/pushapi.png)](https://travis-ci.org/modood/pushapi)
 [![Coverage Status](https://coveralls.io/repos/github/modood/pushapi/badge.svg?branch=master)](https://coveralls.io/github/modood/pushapi?branch=master)
-[![GoDoc](https://pkg.go.dev/badge/github.com/modood/pushapi)](https://pkg.go.dev/github.com/modood/pushapi)
+[![GoDoc](https://pkg.go.dev/badge/github.com/xiayuhes/pushapi)](https://pkg.go.dev/github.com/xiayuhes/pushapi)
 
 各手机厂商推送 api 接入
 
@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/modood/pushapi/vivopush"
+	"github.com/xiayuhes/pushapi/vivopush"
 )
 
 var appId = "your app id"
@@ -58,7 +58,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/modood/pushapi/oppopush"
+	"github.com/xiayuhes/pushapi/oppopush"
 )
 
 var appKey = "your app key"
@@ -91,7 +91,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/modood/pushapi/xiaomipush"
+	"github.com/xiayuhes/pushapi/xiaomipush"
 )
 
 var appSecret = "your app secret"
@@ -127,7 +127,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/modood/pushapi/huaweipush"
+	"github.com/xiayuhes/pushapi/huaweipush"
 )
 
 var appId = "your app id"
@@ -165,5 +165,5 @@ func main() {
 
 ## License
 
-this repo is released under the [MIT License](https://github.com/modood/pushapi/blob/master/LICENSE).
+this repo is released under the [MIT License](https://github.com/xiayuhes/pushapi/blob/master/LICENSE).
 

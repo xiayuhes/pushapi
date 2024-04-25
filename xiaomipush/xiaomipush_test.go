@@ -3,7 +3,7 @@ package xiaomipush_test
 import (
 	"testing"
 
-	"github.com/modood/pushapi/xiaomipush"
+	"github.com/xiayuhes/pushapi/xiaomipush"
 )
 
 var appSecret = "your app secret"

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/modood/pushapi/vivopush"
+	"github.com/xiayuhes/pushapi/vivopush"
 )
 
 var appId = "your app id"

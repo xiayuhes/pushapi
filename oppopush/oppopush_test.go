@@ -3,7 +3,7 @@ package oppopush_test
 import (
 	"testing"
 
-	"github.com/modood/pushapi/oppopush"
+	"github.com/xiayuhes/pushapi/oppopush"
 )
 
 var appKey = "your app key"

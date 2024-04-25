@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/modood/pushapi/httputil"
+	"github.com/xiayuhes/pushapi/httputil"
 )
 
 type TestType1 struct {

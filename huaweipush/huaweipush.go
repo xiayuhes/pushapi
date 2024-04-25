@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/modood/pushapi/httputil"
+	"github.com/xiayuhes/pushapi/httputil"
 )
 
 type Client struct {
