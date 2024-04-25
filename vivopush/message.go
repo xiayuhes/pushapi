@@ -41,6 +41,7 @@ type SendReq struct {
 	PushMode        int                      `json:"pushMode,omitempty"`        // 推送模式 0：正式推送；1：测试推送，不填默认为0 备注： 1.测试推送，只能给web界面录入的测试用户推送；审核中应用，只能用测试推送 2.若未设置pushMode=1进行测试，文案相同时，将被当做重复推送的运营消息被去重
 	AuditReview     []map[string]interface{} `json:"auditReview,omitempty"`     // 第三方审核结果，参见：基于第三方审核结果的消息推送
 	NotifyId        int                      `json:"notifyId,omitempty"`        // 每条消息在通知显示时的唯一标识。不携带时，vpush自动为给每条消息生成一个唯一标识；
+	AddBadge        bool                     `json:"addBadge,omitempty"`        // 设置为 true 表示展示角标，应用图标角标会自动加 1。
 }
 
 type SendRes struct {
